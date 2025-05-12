@@ -57,6 +57,7 @@
             this.ListaAlunos.Size = new System.Drawing.Size(333, 312);
             this.ListaAlunos.TabIndex = 1;
             this.ListaAlunos.UseCompatibleStateImageBehavior = false;
+            this.ListaAlunos.SelectedIndexChanged += new System.EventHandler(this.ListaAlunos_SelectedIndexChanged);
             // 
             // label1
             // 
