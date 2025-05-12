@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+using Dapper;
 
 namespace Escola
 {
@@ -20,6 +22,11 @@ namespace Escola
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            using (var connection = new MySqlConnection(LigacaoDB.GetConnectionString()))
+            {
+                int n = connection.ExecuteScalar<int>("SELECT COUNT(*) FROM alunos");
+                NumeroRegistos.Text = $"{n} alunos";
+            }
         }
     }
 }
