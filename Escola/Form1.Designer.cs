@@ -236,6 +236,7 @@
             this.AtualizarAluno.TabIndex = 3;
             this.AtualizarAluno.Text = "A&tualizar";
             this.AtualizarAluno.UseVisualStyleBackColor = true;
+            this.AtualizarAluno.Click += new System.EventHandler(this.AtualizarAluno_Click);
             // 
             // Form1
             // 
