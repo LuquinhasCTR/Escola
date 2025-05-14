@@ -48,6 +48,7 @@
             this.DataNascimento = new System.Windows.Forms.DateTimePicker();
             this.label9 = new System.Windows.Forms.Label();
             this.EliminarAluno = new System.Windows.Forms.Button();
+            this.AtualizarAluno = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ListaAlunos
@@ -85,7 +86,7 @@
             this.label2.Location = new System.Drawing.Point(377, 92);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(21, 13);
-            this.label2.TabIndex = 3;
+            this.label2.TabIndex = 5;
             this.label2.Text = "ID:";
             // 
             // label3
@@ -94,7 +95,7 @@
             this.label3.Location = new System.Drawing.Point(454, 92);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(115, 13);
-            this.label3.TabIndex = 5;
+            this.label3.TabIndex = 7;
             this.label3.Text = "Número de Processo:";
             // 
             // label4
@@ -103,7 +104,7 @@
             this.label4.Location = new System.Drawing.Point(629, 92);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(101, 13);
-            this.label4.TabIndex = 7;
+            this.label4.TabIndex = 9;
             this.label4.Text = "Número de Aluno:";
             // 
             // IdAluno
@@ -113,7 +114,7 @@
             this.IdAluno.Location = new System.Drawing.Point(395, 92);
             this.IdAluno.Name = "IdAluno";
             this.IdAluno.Size = new System.Drawing.Size(38, 13);
-            this.IdAluno.TabIndex = 4;
+            this.IdAluno.TabIndex = 6;
             this.IdAluno.Text = "label5";
             // 
             // NumeroProcesso
@@ -123,7 +124,7 @@
             this.NumeroProcesso.Location = new System.Drawing.Point(566, 92);
             this.NumeroProcesso.Name = "NumeroProcesso";
             this.NumeroProcesso.Size = new System.Drawing.Size(38, 13);
-            this.NumeroProcesso.TabIndex = 6;
+            this.NumeroProcesso.TabIndex = 8;
             this.NumeroProcesso.Text = "label6";
             // 
             // NumeroAluno
@@ -133,7 +134,7 @@
             this.NumeroAluno.Location = new System.Drawing.Point(726, 92);
             this.NumeroAluno.Name = "NumeroAluno";
             this.NumeroAluno.Size = new System.Drawing.Size(38, 13);
-            this.NumeroAluno.TabIndex = 8;
+            this.NumeroAluno.TabIndex = 10;
             this.NumeroAluno.Text = "label7";
             // 
             // Nome
@@ -141,7 +142,7 @@
             this.Nome.Location = new System.Drawing.Point(380, 143);
             this.Nome.Name = "Nome";
             this.Nome.Size = new System.Drawing.Size(395, 22);
-            this.Nome.TabIndex = 10;
+            this.Nome.TabIndex = 12;
             // 
             // label5
             // 
@@ -149,7 +150,7 @@
             this.label5.Location = new System.Drawing.Point(377, 127);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(40, 13);
-            this.label5.TabIndex = 9;
+            this.label5.TabIndex = 11;
             this.label5.Text = "&Nome:";
             // 
             // Morada
@@ -158,7 +159,7 @@
             this.Morada.Multiline = true;
             this.Morada.Name = "Morada";
             this.Morada.Size = new System.Drawing.Size(242, 80);
-            this.Morada.TabIndex = 12;
+            this.Morada.TabIndex = 14;
             // 
             // label6
             // 
@@ -166,7 +167,7 @@
             this.label6.Location = new System.Drawing.Point(379, 190);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(50, 13);
-            this.label6.TabIndex = 11;
+            this.label6.TabIndex = 13;
             this.label6.Text = "&Morada:";
             // 
             // label7
@@ -175,7 +176,7 @@
             this.label7.Location = new System.Drawing.Point(641, 190);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(82, 13);
-            this.label7.TabIndex = 13;
+            this.label7.TabIndex = 15;
             this.label7.Text = "&Código Postal:";
             // 
             // CodigoPostal
@@ -183,14 +184,14 @@
             this.CodigoPostal.Location = new System.Drawing.Point(644, 206);
             this.CodigoPostal.Name = "CodigoPostal";
             this.CodigoPostal.Size = new System.Drawing.Size(112, 22);
-            this.CodigoPostal.TabIndex = 14;
+            this.CodigoPostal.TabIndex = 16;
             // 
             // Email
             // 
             this.Email.Location = new System.Drawing.Point(380, 317);
             this.Email.Name = "Email";
             this.Email.Size = new System.Drawing.Size(391, 22);
-            this.Email.TabIndex = 15;
+            this.Email.TabIndex = 18;
             // 
             // label8
             // 
@@ -198,7 +199,7 @@
             this.label8.Location = new System.Drawing.Point(380, 301);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(37, 13);
-            this.label8.TabIndex = 16;
+            this.label8.TabIndex = 17;
             this.label8.Text = "&Email:";
             // 
             // DataNascimento
@@ -206,7 +207,7 @@
             this.DataNascimento.Location = new System.Drawing.Point(383, 374);
             this.DataNascimento.Name = "DataNascimento";
             this.DataNascimento.Size = new System.Drawing.Size(200, 22);
-            this.DataNascimento.TabIndex = 18;
+            this.DataNascimento.TabIndex = 20;
             // 
             // label9
             // 
@@ -214,7 +215,7 @@
             this.label9.Location = new System.Drawing.Point(380, 358);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(113, 13);
-            this.label9.TabIndex = 17;
+            this.label9.TabIndex = 19;
             this.label9.Text = "&Data de Nascimento:";
             // 
             // EliminarAluno
@@ -222,16 +223,26 @@
             this.EliminarAluno.Location = new System.Drawing.Point(285, 402);
             this.EliminarAluno.Name = "EliminarAluno";
             this.EliminarAluno.Size = new System.Drawing.Size(75, 23);
-            this.EliminarAluno.TabIndex = 19;
+            this.EliminarAluno.TabIndex = 4;
             this.EliminarAluno.Text = "E&liminar";
             this.EliminarAluno.UseVisualStyleBackColor = true;
             this.EliminarAluno.Click += new System.EventHandler(this.EliminarAluno_Click);
+            // 
+            // AtualizarAluno
+            // 
+            this.AtualizarAluno.Location = new System.Drawing.Point(204, 402);
+            this.AtualizarAluno.Name = "AtualizarAluno";
+            this.AtualizarAluno.Size = new System.Drawing.Size(75, 23);
+            this.AtualizarAluno.TabIndex = 3;
+            this.AtualizarAluno.Text = "A&tualizar";
+            this.AtualizarAluno.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.AtualizarAluno);
             this.Controls.Add(this.EliminarAluno);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.DataNascimento);
@@ -283,6 +294,7 @@
         private System.Windows.Forms.DateTimePicker DataNascimento;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button EliminarAluno;
+        private System.Windows.Forms.Button AtualizarAluno;
     }
 }
 
